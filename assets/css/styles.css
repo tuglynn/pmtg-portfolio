@@ -16,16 +16,15 @@ header {
     background-color: var(--grey);
 }
 
-/* To allow the header and nav to be spaced out to either end, I used a 50% width on both elements and set the parent to flex. */
+/* To allow the header and nav to be spaced out to either end, I used a 50% width on both elements and set the parent to flex.
+Try using flex grow on h1 instead of setting padding. This should make it grow to take up all extra space in the flex row */
 
 h1 {
     font-size: 190%;
     font-weight: 300;
     letter-spacing: 2px;
     color: var(--dark);
-    padding-top: 5px;
-    margin-right: 20%;
-    margin-left: 5px;
+    flex-grow: 2;
 }
 
 nav {
@@ -96,20 +95,25 @@ section {
     margin-left: 3px;
 }
 
+/* This is the responsive work section */
+
+
 #workbox {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .work {
     height: 200px;
-    width: 493px;
     margin: 5px;
     border: 2px solid var(--brown);
     cursor: pointer;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    flex-grow: .5;
+    flex-basis: min(380px);
 }
 
 .work:hover {
@@ -126,11 +130,12 @@ section {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.work:nth-of-type(1) {
-    width: 1000px;
+#workbox .work:nth-of-type(1) {
     background-image: url(../images/code-refactor.png);
     background-position: center;
     background-size: cover;
+    flex-grow: 1;
+    flex-basis: min(996px);
 }
 
 
@@ -154,9 +159,12 @@ section {
     h1 {
         text-align: center;
         margin: 0;
+        padding-bottom: 5px;
     }
 
     nav {
         width: 100%;
     }
 }
+
+@media screen and (max-width:768px) {}
