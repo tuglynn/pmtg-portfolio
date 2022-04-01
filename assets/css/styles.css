@@ -105,6 +105,8 @@ section {
     flex-direction: row;
 }
 
+/* Set the flex-basis to a low number so that I could have two smaller boxes under the big box. */
+
 .work {
     height: 200px;
     margin: 5px;
@@ -130,6 +132,8 @@ section {
     margin: 10px 10px 15px 10px;
     font-family: 'Courier New', Courier, monospace;
 }
+
+/* I set this flex-basis to the minimum size of the screen before my media query break so that this large box would stay the full size of the screen until that break */
 
 #workbox .work:nth-of-type(1) {
     background-image: url(../images/code-refactor.png);
@@ -167,13 +171,6 @@ section {
         width: 100%;
     }
 
-    .work {
-        flex-basis: min(200px);
-    }
-}
-
-@media screen and (max-width:768px) {
-
     #about,
     #work,
     #contact,
@@ -196,6 +193,15 @@ section {
         width: 100%;
         margin: 0 25px;
     }
+
+
+    .work {
+        flex-basis: min(200px);
+    }
+}
+
+@media screen and (max-width:768px) {
+
 
     .address {
         flex-direction: column;
