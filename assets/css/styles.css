@@ -144,8 +144,7 @@ section p {
 }
 
 .work:hover {
-    -webkit-box-shadow: 5px 5px 15px 5px var(--cece);
-    box-shadow: 5px 5px 15px 5px var(--cece);
+    box-shadow: 5px 5px 15px 5px #797979;
     position: relative;
     bottom: 2px;
     cursor: pointer;
@@ -185,6 +184,8 @@ section p {
 
 #contact a:hover {
     color: #7ca768;
+    position: relative;
+    bottom: 1px;
 }
 
 @media screen and (max-width:992px) {
