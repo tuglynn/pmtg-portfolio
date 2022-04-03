@@ -22,7 +22,7 @@ Try using flex grow on h1 instead of setting padding. This should make it grow t
 
 h1 {
     font-size: 190%;
-    font-weight: 300;
+    font-weight: 900;
     letter-spacing: 2px;
     color: var(--dark);
     flex-grow: 2;
@@ -67,7 +67,7 @@ body {
 
 #hero h2 {
     font-size: 140%;
-    font-weight: 100;
+    font-weight: 900;
     font-style: italic;
     letter-spacing: 2px;
     color: var(--white);
@@ -89,6 +89,7 @@ article {
 
 
 .title h2 {
+    font-weight: 900;
     font-size: 140%;
     letter-spacing: var(--space);
     margin-left: 40%;
@@ -144,9 +145,8 @@ section p {
 }
 
 .work:hover {
+    transition: box-shadow .7s ease-out;
     box-shadow: 5px 5px 15px 5px #797979;
-    position: relative;
-    bottom: 2px;
     cursor: pointer;
 }
 
