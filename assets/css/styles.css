@@ -44,6 +44,7 @@ nav a {
 }
 
 nav a:hover {
+    transition: all .7s ease;
     color: var(--cece);
 }
 
@@ -183,9 +184,18 @@ section p {
 }
 
 #contact a:hover {
+    transition: all 1s ease;
     color: #7ca768;
     position: relative;
     bottom: 1px;
+}
+
+footer {
+    font-size: 65%;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 30px;
 }
 
 @media screen and (max-width:992px) {
