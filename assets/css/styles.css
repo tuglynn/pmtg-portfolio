@@ -134,13 +134,13 @@ section p {
 }
 
 .project2 {
-    background-image: url(../images/moog.jpg);
+    background-image: url(../images/weatherdash.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .project3 {
-    background-image: url(../images/doggies.JPG);
+    background-image: url(../images/pianoquiz.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -161,12 +161,20 @@ section p {
 
 /* I set this flex-basis to the minimum size of the screen before my media query break so that this large box would stay the full size of the screen until that break */
 
-#workbox .work:nth-of-type(1) {
-    background-image: url(../images/code-refactor.png);
+#workbox .main-project {
+    background-image: url(../images/burauzanoakachan.jpg);
     background-position: center;
     background-size: cover;
     flex-grow: 1;
     flex-basis: min(996px);
+}
+
+h2 a {
+    color: var(--white);
+}
+
+h2 a:hover {
+    color: rgb(217, 220, 242)9
 }
 
 
