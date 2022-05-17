@@ -1,10 +1,13 @@
 # pmtg-portfolio
+https://monacoglynn.github.io/pmtg-portfolio/
 My portfolio of code projects
 
-I started by making a main outline of the page. Creating the header with h1 and nav bar. I styled that with a background color and spaced each element on either end of the header.
+## Technologies used
+HTML, CSS, & Javascript
 
-I used flex box to arrange the main part of the page, created some pseudo classes for a tags and my workbox projects. Making the first project bigger than the rest was a struggle. I set the flex-basis to the min of my large screen size so that it would always take up the whole page width.
+## Description
 
-https://monacoglynn.github.io/pmtg-portfolio/
+This is my portfolio page to display some of my coding accomplishments and to show some of my other work experiences.
 
-![splash-page](./assets/images/Splash.jpg)
+## Demonstration
+![splash-page](./assets/images/updated-splash.png)
