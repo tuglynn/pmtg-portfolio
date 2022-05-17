@@ -1,6 +1,7 @@
 # pmtg-portfolio
-https://monacoglynn.github.io/pmtg-portfolio/
 My portfolio of code projects
+
+https://monacoglynn.github.io/pmtg-portfolio/
 
 ## Technologies used
 HTML, CSS, & Javascript
