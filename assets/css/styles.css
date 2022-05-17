@@ -173,6 +173,41 @@ h2 a {
     color: var(--white);
 }
 
+h3 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: .5rem;
+    text-align: center;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin: .5rem;
+}
+
+#resume p {
+    font-weight: 300;
+    letter-spacing: .5px;
+}
+
+
+
+a button {
+    font-size: 1rem;
+    padding: .25em .5em;
+    margin: 1rem 40%;
+    background-color: #cb9b48;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+a button:hover {
+    transition: all 1s ease;
+    color: #c3c3c3;
+    position: relative;
+    bottom: 1px;
+}
 
 
 .address {
