@@ -12,23 +12,23 @@ mainProject.addEventListener('mouseout', () => {
     mainProject.innerHTML = `<h2>burauza no akachan</h2>`
 });
 
-project2.addEventListener('click', () => location.href = 'https://monacoglynn.github.io/weather-tracker/')
+project2.addEventListener('click', () => location.href = 'https://project2-rllr.herokuapp.com/')
 
 project2.addEventListener('mouseover', () => {
     project2.innerHTML =
-        `<h2>weather tracking app that saves your searched cities. Click to see more</h2>`
+        `<h2>A Pokemon themed social media website. Click to see more</h2>`
 });
 project2.addEventListener('mouseout', () => {
-    project2.innerHTML = `<h2>weather app</h2>`
+    project2.innerHTML = `<h2>rllr-dex</h2>`
 });
 
-project3.addEventListener('click', () => location.href = 'https://monacoglynn.github.io/piano-quiz/index.html')
+project3.addEventListener('click', () => location.href = 'https://afternoon-castle-95204.herokuapp.com/')
 
 project3.addEventListener('mouseover', () => {
     project3.innerHTML =
-        `<h2>challenge your knowledge with this quiz game. Click to see more</h2>`
+        `<h2>An express powered note taking app. Click to see more</h2>`
 });
 
 project3.addEventListener('mouseout', () => {
-    project3.innerHTML = `<h2>piano quiz</h2>`
+    project3.innerHTML = `<h2>note taker</h2>`
 });
